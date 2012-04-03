@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<title>·Âwin8·ç¸ñµÄ³¢ÊÔ</title>
+		<style type="text/css">
+			body{
+				margin:0;
+				padding:0;
+				background-color:RGB(44,20,40);
+			}
+			div#wrap div{
+				margin:30px;
+				font-size:2cm;
+				color:white;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">				    
+			<div>
+				<script type="text/javascript">
+					var now=new Date();
+					day=now.getDay();
+					year=now.getFullYear();
+					month=now.getMonth()+1;
+					date=now.getDate();
+					switch(month){
+						case 1:
+							month="Jan";
+							break;
+						case 2:
+							month="Feb";
+							break;
+						case 3:
+							month="Mar";
+							break;
+						case 4:
+							month="Apr";
+							break;
+						case 5:
+							month="Mar";
+							break;
+						case 6:
+							month="June";
+							break;
+						case 7:
+							month="July";
+							break;
+						case 8:
+							month="Aug";
+							break;
+						case 9:
+							month="Sep";
+							break;
+						case 10:
+							month="Oct";
+							break;
+						case 11:
+							month="Dec";
+							brteak;
+						case 12:
+							month="Nov";
+							break;
+					}
+					switch(day){
+						case 6:
+							day="Satday";
+					}
+					document.write(month+" "+date+" "+year+" "+day);
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

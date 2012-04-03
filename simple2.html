@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>仿win8风格的尝试之metro风格桌面布局格式</title>
+		<style type="text/css">
+			body{
+				margin:0;
+				padding:0;
+				background-color:RGB(3,89,40);
+			}
+			div#container{
+				width:auto;
+				height:auto;
+				margin-left:170px;
+				margin-top:50px;
+			}
+			div#header{
+				width:100%;
+				height:100px;
+				font-size:30px;
+				font-weight:bolder;
+				color:white;
+			}	
+			div#content{
+				width:1024px;
+			}
+			.short_box{
+				width:160px;
+				height:160px;
+				background-color:yellow;
+				float:left;
+				margin-right:10px;
+				margin-top:10px;
+			}
+			.long_box{
+				width:330px;
+				height:160px;
+				background-color:green;
+				float:left;
+				margin-right:10px;
+				margin-top:10px;
+			}
+			#content .music{
+				background-color:orange;
+			}
+			#content .video{
+				background-color:RGB(219,188,1);
+			}
+			#content .weather{
+				background-color:RGB(0,177,223);
+			}
+			#content .inner_box{
+				color:white;
+				font-weight:bold;
+				font-size:20px;
+				margin:10px;
+			}
+		</style>
+	</head>
+	<body>
+	<div>
+		<div id="container">
+			<div id="header">Start</div>
+			<div id="content">
+				<div class="long_box">
+					<div class="inner_box">Email</div>
+				</div>
+				<div class="long_box">
+					<div class="inner_box">Office</div>
+				</div>
+				<div class="long_box">
+					<div class="inner_box">Picture</div>
+				</div>
+				<div class="short_box">
+					<div class="inner_box">Internet</div>
+				</div>
+				<div class="short_box weather">
+					<div class="inner_box">Weather</div>
+				</div>
+				<div class="long_box music">
+					<div class="inner_box">Music</div>
+				</div>
+				<div class="long_box video">
+					<div class="inner_box">Video</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
